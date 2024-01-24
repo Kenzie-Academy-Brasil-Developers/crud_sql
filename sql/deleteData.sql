@@ -1,5 +1,5 @@
-DELETE FROM books WHERE id = 2; 
+DELETE FROM books WHERE name ILIKE 'jogos vorazes';
 
-DELETE FROM authors WHERE id = 2;
+DELETE FROM authors WHERE name ILIKE 'j. k. rowling';
 
-DELETE FROM authors WHERE id = 3;
+DELETE FROM authors WHERE name ILIKE 'osvaldo silva';
